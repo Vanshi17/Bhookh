@@ -1,6 +1,13 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Bhookh App - React Native Assignment  
 
-# Getting Started
+## Overview  
+The **Bhookh App** is a basic restaurant app designed to simulate functionalities similar to Swiggy. This assignment focused on implementing clean code, best practices, and a solid app architecture. Key features included implementing a login screen, a home screen with recipes fetched from an API, and adhering to the provided design specifications.  
+
+---
+
+## Getting Started
+
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
@@ -59,21 +66,71 @@ Now that you have successfully run the app, let's modify it.
 
 You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
+---
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+## Project Features  
 
-# Troubleshooting
+### Completed Features  
+1. **Login Screen**  
+   - Fully implemented login screen based on the provided Figma design.  
+   - Accepts username and password inputs with basic form validation:  
+     - Ensures both fields are filled.  
+     - Displays error messages for invalid inputs.  
+   - Simulated authentication logic using mock JSON with three users.  
+   - Displays an "Invalid credentials" message for unmatched inputs.  
+   - Successfully validates credentials and simulates login functionality.  
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+2. **Clean Code Practices**  
+   - Modularized code using the **MVC architecture**, separating data, UI, and controllers into distinct modules.  
+   - Followed React Native's best practices:  
+     - **Reusable components** were created to avoid redundancy.  
+     - Used **meaningful variable and function names**.  
+     - Avoided excessive nesting and code duplication.  
+   - State managed effectively using **React Hooks**.  
 
-# Learn More
+3. **UI Design**  
+   - Mimicked the design using a color picker extension to match the Figma file.  
+   - Styled components using **StyleSheet.create** for consistent and responsive styling.  
 
-To learn more about React Native, take a look at the following resources:
+4. **Error Handling**  
+   - Handled API errors gracefully, displaying user-friendly messages.  
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+5. **TypeScript Integration**  
+   - Used **TypeScript** to enhance type safety and improve code reliability.  
+
+---
+
+## Challenges Faced  
+
+1. **Navigation Issue**  
+   - Unable to implement navigation to fetch data from the API on successful login and display it on the Home Screen.  
+
+2. **Incomplete Home Screen**  
+   - API integration partially completed; the Home Screen design and data display were not fully implemented.  
+
+3. **Setting Up Issues**  
+   - Faced challenges in setting up the project initially, which delayed the development process.  
+
+---
+
+## Approach  
+
+1. **Architecture**  
+   - Followed the **MVC architecture** to ensure clear separation of concerns:  
+     - **Model**: Handled data fetching and state management.  
+     - **View**: Managed UI components and their styling.  
+     - **Controller**: Managed logic for handling events and interactions.  
+
+2. **Reusable and Modular Code**  
+   - Focused on writing reusable and modular components to ensure scalability.  
+
+3. **Error Handling**  
+   - Implemented comprehensive error handling to manage issues such as invalid inputs and API errors effectively.  
+
+4. **Styling**  
+   - Used **StyleSheet.create** for styling components, ensuring responsiveness across screen sizes.  
+
+---
+
+## Acknowledgements
+This project was developed as part of the React Native Assignment for the upGrad React Native Technology Intern role.
