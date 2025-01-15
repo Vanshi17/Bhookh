@@ -117,7 +117,7 @@ You've successfully run and modified your React Native App. :partying_face:
 
 1. **Architecture**  
    - Followed the **MVC architecture** to ensure clear separation of concerns:  
-     - **Model**: Handled data fetching and state management.  
+     - **Model**: Handled data fetching and state management using React native hooks.  
      - **View**: Managed UI components and their styling.  
      - **Controller**: Managed logic for handling events and interactions.  
 
@@ -128,8 +128,9 @@ You've successfully run and modified your React Native App. :partying_face:
    - Implemented comprehensive error handling to manage issues such as invalid inputs and API errors effectively.  
 
 4. **Styling**  
-   - Used **StyleSheet.create** for styling components, ensuring responsiveness across screen sizes.  
-
+  - Styled components using StyleSheet.create for consistent and maintainable design.
+  - Attempted to replicate the design by utilizing a color picker extension to match the provided Figma design.
+    
 ---
 
 ## Acknowledgements
