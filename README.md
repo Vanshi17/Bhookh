@@ -103,7 +103,7 @@ You've successfully run and modified your React Native App. :partying_face:
 ## Challenges Faced  
 
 1. **Navigation Issue**  
-   - Unable to implement navigation to fetch data from the API on successful login and display it on the Home Screen.  
+   - Unable to successfully implement navigation, which prevented transitioning from the Login Screen to the Home Screen upon successful login.
 
 2. **Incomplete Home Screen**  
    - API integration partially completed; the Home Screen design and data display were not fully implemented.  
